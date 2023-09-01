@@ -3,7 +3,7 @@
 This repository contains source code for the paper:
 *Impacts of Volcanic Emissions on the Global Biogeochemical Mercury Cycle: Insights from Satellite Observations and Chemical Transport Modeling*.
 
-Emission files used in GEOS-Chem modeling are stored separately on <a href="https://doi.org/10.7910/DVN/KHP4KK">Harvard Dataverse</a> and can be downloaded to the repository directory using *Fetch_Dataverse_Files.py*.
+Emission files used in GEOS-Chem modeling are stored separately on <a href="https://doi.org/10.7910/DVN/KHP4KK">Harvard Dataverse</a> and can be downloaded to the repository directory using *0-Fetch_Dataverse_Files.py*.
 
 The script `call_all.sh` executes the python files listed below. The script `install_environment.sh` creates a conda environment called **volcano_env** that installs python and all dependencies needed to run the code.
 
