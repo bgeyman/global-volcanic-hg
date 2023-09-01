@@ -1,0 +1,43 @@
+﻿Volcano,Hg/SO2,Measured_Pre_1990,Hg/SO2 lower bound,Hg/SO2 upper bound,Hg/SO2 range flag,Year,Reference,Method
+Ambrym,9.00E-06,FALSE,1.00E-06,1.00E-05,TRUE,2007 - 2008,Allard et al. (2016); Bagnato et al. (2011),Au trap/CVAFS
+Asama,5.50E-06,FALSE,3.00E-06,7.00E-06,TRUE,2008,Bagnato et al. (2011),Au trap/CVAFS
+Aso,5.20E-07,FALSE,,,FALSE,2010,Bagnato et al. (2015),Au trap/CVAFS
+Aso,1.30E-06,FALSE,,,FALSE,2010,Bagnato et al. (2015),Au trap/CVAFS
+Colima,3.85E-06,TRUE,2.50E-06,5.20E-06,TRUE,1981,Varekamp and Buseck (1986),Au trap/AAS
+Erebus,1.00E-05,FALSE,,,FALSE,1997 - 2000,Wardell et al. (2008),NaOH trap/ CVAFS
+Erebus,8.80E-06,TRUE,,,FALSE,1984,Kyle et al. (1990),-
+Etna,8.70E-06,FALSE,3.50E-06,1.90E-05,TRUE,2004 - 2006,Bagnato et al. (2007),Au trap/CVAFS
+Etna,5.25E-06,FALSE,3.40E-06,7.10E-06,TRUE,2011,Bagnato et al. (2015),Au trap/CVAFS
+Etna,2.00E-06,TRUE,,,FALSE,1981,Varekamp and Buseck (1986),-
+Kilauea,1.00E-06,FALSE,,,FALSE,2008 - 2009,Mather et al. (2012),Au trap/CVAFS
+Kilauea,0.000159,TRUE,,,FALSE,1971 - 1980,Siegel and Siegel (1987),Au trap/ flameless AAS
+Kilauea,0.00033,TRUE,,,FALSE,1976 - 1978,Siegel and Siegel (1987),Au trap/ flameless AAS
+Vulcano,1.26E-06,FALSE,8.44E-07,1.68E-06,TRUE,2006,Aiuppa et al. (2007),Lumex
+Vulcano,1.50E-07,FALSE,9.10E-08,3.00E-07,TRUE,1998 - 1999,Ferrara et al. (2000),Au trap/Liquid trap/AAS
+Vulcano,9.30E-07,FALSE,5.80E-07,1.80E-06,TRUE,2007,Zambardi et al. (2009),Au trap/CVAFS MC-ICP-MS
+Las Hornillas,4.01E-06,FALSE,,,FALSE,2013,Bagnato et al. (2015),Lumex
+Las Pailas,1.68E-05,FALSE,,,FALSE,2013,Bagnato et al. (2015),Lumex
+Masaya,2.00E-06,FALSE,1.00E-06,3.00E-06,TRUE,2006,Witt et al. (2008),Lumex
+Miyake-jima,9.00E-06,FALSE,2.00E-06,2.00E-05,TRUE,2006; 2008,Bagnato et al. (2011),Au trap/CVAFS
+Miyake-jima,2.40E-06,FALSE,2.40E-06,4.20E-06,TRUE,2001,Friedli et al. (2004),Au trap/CVAFS
+Saint Helens,1.00E-03,TRUE,5.00E-04,3.00E-03,TRUE,1980,Varekamp and Buseck (1981),Au trap/
+Saint Helens,4.10E-06,TRUE,5.00E-07,3.20E-05,TRUE,1981,Varekamp and Buseck (1986),-
+Hood,7.10E-06,TRUE,,,FALSE,1981,Varekamp and Buseck (1986),-
+Shasta,3.90E-05,TRUE,,,FALSE,1981,Varekamp and Buseck (1986),-
+Gorely,3.30E-06,FALSE,,,FALSE,2011,Bagnato et al. (2015),Au trap/CVAFS
+Mutnofsky,1.63E-06,FALSE,1.90E-07,1.40E-05,TRUE,2011,Bagnato et al. (2015),Au trap/CVAFS
+Nisyros,6.90E-08,FALSE,3.00E-08,1.60E-07,TRUE,2013,Gagliano et al. (2019),-
+Nisyros,2.70E-05,FALSE,1.10E-05,6.80E-05,TRUE,2013,Gagliano et al. (2019),Lumex
+Nyiragongo + Nyamuragira,5.50E-06,FALSE,2.60E-06,7.70E-06,TRUE,2007,Bagnato et al. (2011),Au trap/CVAFS
+Poas,3.70E-07,FALSE,2.10E-08,5.40E-08,TRUE,2013,Bagnato et al. (2015),-
+Popocatepetl,1.76E-04,FALSE,,,FALSE,2019,Schiavo et al. (2020a),Lumex
+Rincon de la Vieja,3.50E-06,FALSE,2.70E-06,4.30E-06,TRUE,2013,Bagnato et al. (2015),Au trap/CVAFS
+Solfatara,1.90E-06,FALSE,,,FALSE,2008,Bagnato et al. (2009b),Au trap/CVAFS
+Soufriere Hills,1.20E-05,FALSE,8.00E-06,2.00E-05,TRUE,2008,Bagnato et al. (2011),Au trap/CVAFS
+Stromboli,4.70E-06,FALSE,1.50E-06,8.00E-06,TRUE,2008,Bagnato et al. (2011),Au trap/CVAFS
+Tatun volcanic group,1.00E-06,FALSE,7.00E-07,1.20E-06,TRUE,2007,Witt et al. (2008b),Lumex
+Turrialba,3.90E-06,FALSE,,,FALSE,2011,Bagnato et al. (2015),Au trap/CVAFS
+Turrialba,5.60E-06,FALSE,3.00E-06,9.80E-06,TRUE,2013,Bagnato et al. (2015),Lumex
+Turrialba,8.10E-06,FALSE,7.60E-06,8.20E-06,TRUE,2013,Bagnato et al. (2015),Au trap/CVAFS
+White Island,5.00E-06,FALSE,2.80E-06,6.00E-06,TRUE,2001,Wardell et al. (2008),NaOH trap/ CVAFS
+Yasur,1.70E-05,FALSE,4.00E-06,4.00E-05,TRUE,2007,Bagnato et al. (2011),Au trap/CVAFS

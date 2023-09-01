@@ -1,0 +1,228 @@
+{
+    "Ratm": {
+        "value": 3900.0,
+        "source(s)": [
+            "Horowitz et al., 2017"
+        ],
+        "notes": ""
+    },
+    "Rocs": {
+        "value": 2910,
+        "source(s)": [
+            "Soerensen et al., 2010"
+        ],
+        "notes": ""
+    },
+    "Roci": {
+        "value": 134000,
+        "source(s)": [
+            "Sunderland and Mason, 2007"
+        ],
+        "notes": ""
+    },
+    "Rocd": {
+        "value": 220649,
+        "source(s)": [
+            "Sunderland and Mason, 2007"
+        ],
+        "notes": ""
+    },
+    "Rtf": {
+        "value": 14430.0,
+        "source(s)": [
+            "Smith-Downey et al., 2010"
+        ],
+        "notes": "scaled by 1.5; litter, fast, and intermediate from GTMM"
+    },
+    "Rts": {
+        "value": 52350.0,
+        "source(s)": [
+            "Smith-Downey et al., 2010"
+        ],
+        "notes": "scaled by 1.5; slow pool from GTMM"
+    },
+    "Rta": {
+        "value": 484000.0,
+        "source(s)": [
+            "Smith-Downey et al., 2010",
+            "Wang et al., 2019",
+            "Geyman et al., in prep."
+        ],
+        "notes": "protected soil pool; scaled by 3.5 for consistency with Wang et al. (2019) and new GTMM"
+    },
+    "Dep_oHgII": {
+        "value": 3700,
+        "source(s)": [
+            "Horowitz et al., 2017"
+        ],
+        "notes": "Hg(II) deposition to the ocean"
+    },
+    "Dep_tHgII": {
+        "value": 1900,
+        "source(s)": [
+            "Horowitz et al., 2017"
+        ],
+        "notes": "Hg(II) deposition to land"
+    },
+    "Dep_tHg0": {
+        "value": 1200,
+        "source(s)": [
+            "Horowitz et al., 2017"
+        ],
+        "notes": "Hg(0) deposition to land"
+    },
+    "netEv_Hg0": {
+        "value": 2900,
+        "source(s)": [
+            "Horowitz et al., 2017"
+        ],
+        "notes": "net evasion of Hg(0) from surface ocean to atmosphere"
+    },
+    "Ev_Hg0_ocs": {
+        "value": 4600,
+        "source(s)": [
+            "Horowitz et al., 2017"
+        ],
+        "notes": "gross evasion to the atmosphere"
+    },
+    "ps_ocs": {
+        "value": 3320,
+        "source(s)": [],
+        "notes": "particle settling, surface to intermediate"
+    },
+    "vert_ocsi": {
+        "value": 5100,
+        "source(s)": [],
+        "notes": "gross detrainment flux, surface to intermediate (ref: HMA, v9-01-02, 2005 avg)"
+    },
+    "Kd_vert": {
+        "value": 0.0001,
+        "source(s)": [],
+        "notes": "vertical diffusion parameter"
+    },
+    "ps_oci": {
+        "value": 720.0,
+        "source(s)": [],
+        "notes": "particle settling, intermediate to deep"
+    },
+    "vert_ocis": {
+        "value": 7100,
+        "source(s)": [],
+        "notes": "vertical seawater flow, intermediate to surface"
+    },
+    "vert_ocid": {
+        "value": 335,
+        "source(s)": [],
+        "notes": "vertical seawater flow, intermediate to deep"
+    },
+    "ps_ocd": {
+        "value": 360,
+        "source(s)": "Zhang et al., 2015",
+        "notes": "particle settling, burial in deep marine sediment"
+    },
+    "vert_ocdi": {
+        "value": 175,
+        "source(s)": [],
+        "notes": "vertical seawater flow, deep to intermediate"
+    },
+    "fveg": {
+        "value": 0.95,
+        "source(s)": [],
+        "notes": "fraction of biomass burning and riverine Hg from living biomass"
+    },
+    "fsoil": {
+        "value": 0.05,
+        "source(s)": [],
+        "notes": "fraction of biomass burning and riverine Hg from soil"
+    },
+    "fCfast": {
+        "value": 0.2185,
+        "source(s)": [],
+        "notes": "fraction of soil carbon in fast pool (Smith-Downey et al., 2010)"
+    },
+    "fCslow": {
+        "value": 0.5057,
+        "source(s)": [],
+        "notes": "fraction of soil carbon in slow pool (Smith-Downey et al., 2010)"
+    },
+    "fCarmored": {
+        "value": 0.2759,
+        "source(s)": [],
+        "notes": "fraction of soil carbon in protected pool (Smith-Downey et al., 2010)"
+    },
+    "tot_resp": {
+        "value": 735.0,
+        "source(s)": [
+            "Smith-Downey et al, 2010"
+        ],
+        "notes": "total terrestrial Hg emissions tied to respiration of associated SOM"
+    },
+    "Te_exfs": {
+        "value": 325,
+        "source(s)": [
+            "Smith-Downey et al., 2010"
+        ],
+        "notes": "decomposition associated Hg transfer; fast pool to slow pool"
+    },
+    "Te_exfa": {
+        "value": 9,
+        "source(s)": [
+            "Smith-Downey et al., 2010"
+        ],
+        "notes": "decomposition associated Hg transfer; fast pool to protected pool"
+    },
+    "Te_exsf": {
+        "value": 205,
+        "source(s)": [
+            "Smith-Downey et al., 2010"
+        ],
+        "notes": "exchange among soil pools; slow to fast"
+    },
+    "Te_exsa": {
+        "value": 0.5,
+        "source(s)": [
+            "Smith-Downey et al., 2010"
+        ],
+        "notes": "exchange among soil pools; slow to protected"
+    },
+    "Te_exaf": {
+        "value": 15,
+        "source(s)": [],
+        "notes": "exchange among soil pools, protected to fast"
+    },
+    "Te_exam": {
+        "value": 0,
+        "source(s)": [],
+        "notes": "exchange among soil pools, protected to mineral reservoir"
+    },
+    "fdep_tf": {
+        "value": 0.5027,
+        "source(s)": [],
+        "notes": "fraction of wet deposition partitioning to fast terrestrial pool"
+    },
+    "fdep_ts": {
+        "value": 0.3213,
+        "source(s)": [],
+        "notes": "fraction of wet deposition partitioning to slow terrestrial pool"
+    },
+    "fdep_ta": {
+        "value": 0.176,
+        "source(s)": [],
+        "notes": "fraction of wet deposition partitioning to protected terrestrial pool"
+    },
+    "IHgD_pristine": {
+        "value": 78.0,
+        "source(s)": [],
+        "notes": "dissolved riverine Hg export, pristine"
+    },
+    "IHgP_pristine": {
+        "value": 659.0,
+        "source(s)": [],
+        "notes": "particulate riverine Hg export, pristine"
+    },
+    "f_HgPexport": {
+        "value": 0.064,
+        "source(s)": [],
+        "notes": "fraction of riverine Hg export reaching open ocean; from Zhang et al. (2015)"
+    }
+}
