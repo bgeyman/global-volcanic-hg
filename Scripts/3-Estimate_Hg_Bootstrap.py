@@ -5,7 +5,10 @@ import time
 import json
 from scipy.stats import linregress
 from numpy.random import default_rng
-seed = 42
+
+# set seed for reproducible output
+seed = 9
+np.random.seed(seed)
 rng = default_rng(seed=seed)
 
 print('STARTING SCRIPT: 3-Estimate_Hg_Bootstrap.py')

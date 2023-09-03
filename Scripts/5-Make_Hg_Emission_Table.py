@@ -64,7 +64,7 @@ output_table = pd.merge(left=output_table, right=output[bootstrap_columns], on='
 output_table = output_table[output_table['Type'].isin(['pvf','eff','exp'])] # drop additional rows
 
 for c in output_table.columns[4:-1]:
-    output_table[c] = np.round(output_table[c],1)
+    output_table[c] = np.round(output_table[c],3) # Increase precision for now. Round at end.
 
 output_table.to_csv('../Output/Tables/Table1_Emission_Estimate_Summary.csv', index=False)
 

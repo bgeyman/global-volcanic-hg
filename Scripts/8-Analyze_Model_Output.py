@@ -67,6 +67,16 @@ def get_weighted_mean_surface_conc(ds, lat_bounds=[24, 90], conc_var='Total_Hg_C
     weighted_mean = (ds_surf[conc_var]*ds_surf['Met_AD']).sum()/ds_surf['Met_AD'].sum()
     return weighted_mean.values.item()
 
+def get_extratropical_mean_surf_conc(ds, conc_var='Total_Hg_Conc'):
+    ds_surf_NH = ds.sel(lat=slice(24, 90)).isel(lev=-1)
+    ds_surf_SH = ds.sel(lat=slice(-90, -24)).isel(lev=-1)
+    # weight concentrations by air density
+    weighted_mean = ( (ds_surf_NH[conc_var]*ds_surf_NH['Met_AD']).sum() +  (ds_surf_SH[conc_var]*ds_surf_SH['Met_AD']).sum() ) / (ds_surf_NH['Met_AD'].sum() + ds_surf_SH['Met_AD'].sum())
+
+    return weighted_mean.values.item()
+
+conc_surf_extratropics = get_extratropical_mean_surf_conc(ds, conc_var='Total_Hg_Conc')*1e15
+
 conc_surf_Global  = get_weighted_mean_surface_conc(ds_avg, lat_bounds=[-90, 90])*1e15
 conc_surf_ETNH    = get_weighted_mean_surface_conc(ds_avg, lat_bounds=[24,  90])*1e15
 conc_surf_tropics = get_weighted_mean_surface_conc(ds_avg, lat_bounds=[-24, 24])*1e15
@@ -75,8 +85,9 @@ conc_surf_ETSH    = get_weighted_mean_surface_conc(ds_avg, lat_bounds=[-90,-24])
 rel_diff_NH_SH_pct = ((conc_surf_ETNH/conc_surf_ETSH)-1)*100
 rel_diff_tropics_global_pct = ((conc_surf_tropics/conc_surf_Global)-1)*100
 print('Surface Hg concentration Global: '.ljust(37),      '{:.2f} ppq'.format(conc_surf_Global))
-print('Surface Hg concentration in ETNH: '.ljust(37),     '{:.2f} ppq'.format(conc_surf_ETNH))
 print('Surface Hg concentration in tropics: '.ljust(37),  '{:.2f} ppq'.format(conc_surf_tropics))
+print('Surface Hg concentration in extratropics: '.ljust(37),  '{:.2f} ppq'.format(conc_surf_extratropics))
+print('Surface Hg concentration in ETNH: '.ljust(37),     '{:.2f} ppq'.format(conc_surf_ETNH))
 print('Surface Hg concentration in ETSH: '.ljust(37),     '{:.2f} ppq'.format(conc_surf_ETSH))
 print('--')
 print('Extratropical NH surface Hg conc is {:.2f}%'.format(rel_diff_NH_SH_pct) + ' greater than in SH')
@@ -104,8 +115,9 @@ print('Total Hg deposition in tropics: '.ljust(32), '{:.2f} Mg'.format(dep_tropi
 print('Total Hg deposition in ETSH: '.ljust(32),    '{:.2f} Mg'.format(dep_ETSH))
 print('--')
 print('Avg. Hg deposition, Global (area weighted): '.ljust(47),    '{:.2f} ug m-2 a-1'.format((dep_global*1e12)/area_global))
-print('Avg. Hg deposition in ETNH (area weighted): '.ljust(47),    '{:.2f} ug m-2 a-1'.format((dep_ETNH*1e12)/area_ETNH))
 print('Avg. Hg deposition in tropics (area weighted): '.ljust(47), '{:.2f} ug m-2 a-1'.format((dep_tropics*1e12)/area_tropics))
+print('Avg. Hg deposition, extratropics (area weighted): '.ljust(47),    '{:.2f} ug m-2 a-1'.format(((dep_ETNH + dep_ETSH)*1e12)/(area_ETNH + area_ETSH)))
+print('Avg. Hg deposition in ETNH (area weighted): '.ljust(47),    '{:.2f} ug m-2 a-1'.format((dep_ETNH*1e12)/area_ETNH))
 print('Avg. Hg deposition in ETSH (area weighted): '.ljust(47),    '{:.2f} ug m-2 a-1'.format((dep_ETSH*1e12)/area_ETSH))
 
 dep_rel_diff_tropics_global_pct = ( ((dep_tropics*1e12)/area_tropics)/((dep_global*1e12)/area_global) - 1)*100

@@ -1,0 +1,31 @@
+compartment_from,compartment_to,notes,label
+atm,ocs,HgII deposition to surface ocean; min = 0.7200 (CDH); max = 0.8913 (ESC),HgII deposition to ocean
+atm,ocs,gross Hg0 uptake by the surface ocean,"Hg0 uptake by ocean, gross"
+atm,tf,Hg0  deposition to terrestrial surfaces;Assumed to represent terrestrial leaf                     uptake; min = 0.2927 (NES); max = 0.3478 (ESC),Hg0 deposition to land
+atm,tf,HgII deposition to terrestrial fast pool;  min = 0.2927 (NES); max = 0.3043 (ESC),"HgII deposition to land, fast"
+atm,ts,HgII deposition to terrestrial slow pool;  min = 0.2927 (NES); max = 0.3043 (ESC),"HgII deposition to land, slow"
+atm,ta,HgII deposition to terrestrial armored pool;  min = 0.2927 (NES); max = 0.3043 (ESC),"HgII deposition to land, protected"
+ocs,atm,evasion Hg0 (gross flux); min = 0.7400 (CDH); max = 1.8485 (ESC),Hg0 gross evasion to atmosphere
+ocs,oci,particle settling; surface to intermediate,Particle settling to intermediate ocean
+ocs,oci,gross detrainment to intermediate ocean,Gross detrainment flux to intermediate ocean
+oci,ocs,"vertical seawater flow, intermediate to surface","Upwelling, intermediate to surface"
+oci,ocd,particle settling; intermediate to deep,Particle settling to deep ocean
+oci,ocd,"vertical seawater flow and diffusion, intermediate to deep",Downwelling and diffusion to deep
+ocd,oci,"vertical seawater flow and diffusion, deep to intermediate",Upwelling and diffusion to intermediate
+ocd,,"particle settling, deep ocean burial in deep sediments",Particle settling; burial in deep sea sediment
+tf,atm,respiration; fast pool,Evasion due to biomass burning and respiration of SOM
+tf,atm,photoreduction and re-release of deposited Hg0,Photoreduction
+tf,ocs,riverine discharge of terrestrial Hg to open ocean; fast pool,Riverine export to surface ocean
+tf,ts,"exchange among soil pools, fast pool to slow pool","Decomposition, fast to slow"
+tf,ta,"exchange among soil pools, fast pool to armored pool","Decomposition and mineral stabilization, fast to protected"
+tf,,riverine discharge of terrestrial Hg to ocean margin sediment; fast pool,Riverine export to continental margin sediment
+ts,atm,evasion due to respiration of organic carbon; slow pool,Evasion due to biomass burning and respiration of SOM
+ts,ocs,riverine discharge of terrestrial Hg to open ocean; slow pool,Riverine export to surface ocean
+ts,tf,"exchange among soil pools, slow pool to fast pool","Decomposition, slow to fast"
+ts,ta,"exchange among soil pools, slow pool to armored pool","Decomposition and mineral stabilization, slow to protected"
+ts,,riverine discharge of terrestrial Hg to ocean margin sediment; slow pool,Riverine export to continental margin sediment
+ta,atm,evasion due to respiration of organic carbon; armored pool,Evasion due to biomass burning and respiration of SOM
+ta,ocs,riverine discharge of terrestrial Hg to open ocean; armored pool,Riverine export to surface ocean
+ta,tf,"exchange among soil pools, armored pool to fast pool","Decomposition, protected to fast"
+ta,,exchange from armored pool to mineral pool,Protected to mineral
+ta,,riverine discharge of terrestrial Hg to ocean margin sediment; armored pool,Riverine export to continental margin sediment

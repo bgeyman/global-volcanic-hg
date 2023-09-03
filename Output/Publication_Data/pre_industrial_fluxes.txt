@@ -1,0 +1,30 @@
+ atm --> ocs  HgII deposition to ocean                                    550.6 
+ atm --> ocs  Hg0 uptake by ocean, gross                                  253.0 
+ atm --> tf   Hg0 deposition to land                                      178.6 
+ atm --> tf   HgII deposition to land, fast                               142.1 
+ atm --> ts   HgII deposition to land, slow                               90.9  
+ atm --> ta   HgII deposition to land, protected                          49.8  
+ ocs --> atm  Hg0 gross evasion to atmosphere                             722.6 
+ ocs --> oci  Particle settling to intermediate ocean                     521.5 
+ ocs --> oci  Gross detrainment flux to intermediate ocean                801.1 
+ oci --> ocs  Upwelling, intermediate to surface                          1217.2
+ oci --> ocd  Particle settling to deep ocean                             123.4 
+ oci --> ocd  Downwelling and diffusion to deep                           57.5  
+ ocd --> oci  Upwelling and diffusion to intermediate                     75.5  
+ ocd --> none Particle settling; burial in deep sea sediment              155.4 
+  tf --> atm  Evasion due to biomass burning and respiration of SOM       86.1  
+  tf --> atm  Photoreduction                                              120.7 
+  tf --> ocs  Riverine export to surface ocean                            21.6  
+  tf --> ts   Decomposition, fast to slow                                 60.8  
+  tf --> ta   Decomposition and mineral stabilization, fast to protected  1.7   
+  tf --> none Riverine export to continental margin sediment              110.9 
+  ts --> atm  Evasion due to biomass burning and respiration of SOM       80.0  
+  ts --> ocs  Riverine export to surface ocean                            1.0   
+  ts --> tf   Decomposition, slow to fast                                 65.6  
+  ts --> ta   Decomposition and mineral stabilization, slow to protected  0.2   
+  ts --> none Riverine export to continental margin sediment              5.0   
+  ta --> atm  Evasion due to biomass burning and respiration of SOM       25.7  
+  ta --> ocs  Riverine export to surface ocean                            1.7   
+  ta --> tf   Decomposition, protected to fast                            15.4  
+  ta --> none Protected to mineral                                        0.0   
+  ta --> none Riverine export to continental margin sediment              8.8   
