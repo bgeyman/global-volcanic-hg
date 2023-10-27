@@ -9,7 +9,7 @@ The script `call_all.sh` executes the python files listed below. The script `ins
 
 #### Recommended citation:
 
-> Geyman, B.M., C.P. Thackray, D.J. Jacob, and E.M. Sunderland (2023). New Satellite Data for SO<sub>2</sub> Suggest Greater Effects of Volcanic Mercury Emissions in the Northern Hemisphere. *Geophysical Research Letters*. <a href="">DOI</a>
+> Geyman, B.M., C.P. Thackray, D.J. Jacob, and E.M. Sunderland (2023). New Satellite Data for SO<sub>2</sub> Suggest Greater Effects of Volcanic Mercury Emissions in the Northern Hemisphere. *Geophysical Research Letters*, 50, e2023GRL104667. <a href="https://doi.org/10.1029/2023GL104667">https://doi.org/10.1029/2023GL104667</a>
 
 __________
 
